@@ -55,7 +55,8 @@ export namespace JsonLd {
       | 'atlassian:SourceCodeRepository'
       | 'atlassian:SourceCodePullRequest'
       | 'atlassian:SourceCodeCommit'
-      | 'atlassian:Task';
+      | 'atlassian:Task'
+      | 'atlassian:Plan';
     export type LinkType = 'Mention';
     export type CollectionType = 'Collection' | 'CollectionPage';
     export type Type = ObjectType | LinkType | CollectionType | LeafType;
